@@ -1,0 +1,3 @@
+Top 20 locations from where people travel the most
+
+SELECT from1,count(*) as cnt FROM travel_data GROUP BY from1 ORDER BY cnt DESC LIMIT 20;
